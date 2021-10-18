@@ -64,7 +64,15 @@ const typeNum = (arr) => {
        
   };
 
+//8
 
+const oddValues = (arr) => {
+    let newarr=[];
+    arr.filter(function(item)
+    {
+        return item %2;
+    });
+  }
 
 
 //CHALLENGE 9

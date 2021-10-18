@@ -6,3 +6,24 @@ const checkValues = (obj, value) => {
     }
     return false
   };
+
+
+  //
+  const courseInfo = {
+    name: "Code 301",
+    duration: { dayTrack: "4 weeks", eveningTrack: "8 weeks" },
+    topics: [
+      "SMACSS",
+      "APIs",
+      "NodeJS",
+      "SQL",
+      "jQuery",
+      "functional programming",
+    ],
+    finalExam: true,
+  };
+  
+  const getCourseKeys = (obj) => {
+    // Solution code here...
+  };
+  
