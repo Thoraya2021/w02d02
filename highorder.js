@@ -80,4 +80,11 @@ const addValues = (arr) => {
     let sum=arr.reduce((sum1,sum2) => sum1+ sum2 ,0)
     return sum;
   };
-  
+
+  //CHALLENGE 10
+  const countNumberOfElements = (arr) => {
+    arr.reduce(function(acc,item,index)
+    {
+    return arr.length;
+  });
+}
